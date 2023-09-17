@@ -114,6 +114,28 @@ background-color:  #0F2330;;
 /* tab-menu-start */
 
 
+.menu {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.menu__item {
+    padding: 10px 12px 10px 12px;
+    background-color:#0a1c27;
+    border: 1px solid gold;
+    border-radius:5px;
+    text-transform: capitalize;
+    color:aliceblue;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.menu__item:hover{
+    background-color:gold;
+color:#0a1c27
+}
 
 /* tab-menu-end */
 

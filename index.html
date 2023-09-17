@@ -1,88 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
     <title>Market</title>
-</head>
+  </head>
 
-<body>
-
-
-
-
-
+  <body>
     <div class="wrapper">
-        <!-- =====HEADER-START===== -->
-        <header class="header header__container">
-            <div class="container">
+      <!-- =====HEADER-START===== -->
+      <header class="header header__container">
+        <div class="container">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#"
+                ><span class="material-symbols-outlined header__logo">
+                  diamond
+                </span></a
+              >
+            </li>
+            <li class="header__item">
+              <a
+                class="header__profile"
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="material-symbols-outlined header__span">
+                  person
+                </span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- =====HEADER-END===== -->
 
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__link" href="#"><span
-                                class="material-symbols-outlined header__logo">
-                                diamond
-                            </span></a>
-                    </li>
-                    <li class="header__item">
-                        <a class="header__profile" href="http://#" target="_blank" rel="noopener noreferrer"><span
-                                class="material-symbols-outlined header__span">
-                                person
-                            </span></a>
-                    </li>
-                </ul>
+      <!-- =====MAIN-START===== -->
 
-
+      <main class="main">
+        <!-- =====HERO-START===== -->
+        <section class="hero" id="hero">
+          <div class="container hero__container">
+            <!-- form-start -->
+            <form class="hero__form form">
+              <button class="form__btn--search" type="button">
+                <span class="material-symbols-outlined form__search">
+                  search
+                </span>
+              </button>
+              <input class="form__input" type="text" placeholder="Qidirish" />
+              <button class="form__btn--close" type="button">
+                <span class="material-symbols-outlined form__close">
+                  close
+                </span>
+              </button>
+            </form>
+            <!-- form-end  -->
+            <!-- tab-menu-start  -->
+            <div class="hero__menu menu">
+              <div class="menu__list">
+                <p class="menu__item">item1</p>
+              </div>
+              <div class="menu__list">
+                <p class="menu__item">item2</p>
+              </div>
+              <div class="menu__list">
+                <p class="menu__item">item3</p>
+              </div>
             </div>
+            <!-- tab-menu-end  -->
+          </div>
+        </section>
 
-        </header>
-        <!-- =====HEADER-END===== -->
-
-        <!-- =====MAIN-START===== -->
-
-        <main class="main">
-            <!-- =====HERO-START===== -->
-            <section class="hero" id="hero">
-                <div class="container hero__container">
-                    <form class="hero__form form" >
-                        <button class="form__btn--search" type="button"><span class="material-symbols-outlined form__search">
-                            search
-                            </span></button>
-                        <input class="form__input" type="text" placeholder="Qidirish">
-                        <button class="form__btn--close" type="button"><span class="material-symbols-outlined form__close">
-                            close
-                            </span></button>
-
-                    </form>
-
-
-                </div>
-
-
-            </section>
-
-            <!-- =====HERO-END===== -->
-
-        </main>
-        <!-- =====MAIN-END===== -->
-
+        <!-- =====HERO-END===== -->
+      </main>
+      <!-- =====MAIN-END===== -->
     </div>
 
     <!-- =====FOOTER-START===== -->
 
-    <footer class="footer">
-
-    </footer>
+    <footer class="footer"></footer>
     <!-- =====FOOTER-END===== -->
 
-
-
-
     <script type="module" src="./main.js"></script>
-</body>
-
+  </body>
 </html>
