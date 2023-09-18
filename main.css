@@ -159,11 +159,13 @@ color:#0a1c27
     margin-top: 60px;
     max-width: 900px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr) );
+    /* grid-template-columns: repeat(auto-fill, ); */
     gap: 15px;
 
 }
 .product__box {
+    grid-column: auto;
     background-color:#0a1c27;
     border-radius:8px;
 
@@ -176,7 +178,7 @@ color:#0a1c27
 .product__title {
     color: #ADF5D6;
 text-align: center;
-
+padding: 5px;
 font-size: 16px;
 font-weight: 600;
 line-height: 17.9px; /* 111.875% */
@@ -201,6 +203,21 @@ text-transform: uppercase;
 
 
 /* product-end */
+
+
+@media (max-width:670px) {
+
+    .product{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px,1fr ) );
+    }
+
+    .product__title{
+       
+        font-size: 14px;
+    }
+    
+}
 
 
 
