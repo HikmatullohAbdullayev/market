@@ -63,14 +63,15 @@ background-color:  #0F2330;;
     /* form-start */
 
 .form {
-    background-color:#0F2330;
+   
+    /* background-color:#0F2330; */
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items:center;
     max-width: 900px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color:#0a1c27;
+
 
 }
 .form__btn--search {
@@ -92,6 +93,7 @@ background-color:  #0F2330;;
     padding-bottom: 15px;
     padding-left: 10px;
     background-color:#0a1c27;
+
     width: 100%;
 }
 .form__btn--close {
@@ -115,6 +117,7 @@ background-color:  #0F2330;;
 
 
 .menu {
+    padding-top: 20px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -139,6 +142,13 @@ color:#0a1c27
 
 /* tab-menu-end */
 
+
+/* product-start */
+
+
+
+
+/* product-end */
 
 
 
